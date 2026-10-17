@@ -1,12 +1,15 @@
-BASKETLOGIC WEBSITE STARTER
+BasketLogic public website starter
 
-Files: index.html, styles.css, script.js, assets/logo.svg.
+This is the updated mobile-friendly static marketing website for BasketLogic.
+The approved full-color BasketLogic basket-and-wrapping-arrow logo has been added as assets/logo.png and is used in the header, About section, footer, and favicon.
 
-EARLY-ACCESS FORM: This starter uses a mailto handoff to hello@mybasketlogic.com. It does not store signups or send them automatically. Before publishing, create/verify that mailbox or replace the address in script.js with an email address you control. A real signup database/form integration can be added later.
+Files:
+- index.html: website content
+- styles.css: layout and visual styling
+- script.js: mobile navigation, year, and early-access email action
+- assets/logo.png: approved full-color logo (purple basket, green arrow and Logic, slogan)
 
-The app preview is illustrative, not a screenshot of a live feature. No live prices, guaranteed savings, or existing retailer partnerships are claimed.
+Important:
+The early-access form opens the visitor's email app with a pre-filled message. It does not store signups or send them automatically. Before publishing, create/verify the hello@mybasketlogic.com mailbox or change the destination in script.js to an email address you control.
 
-CLOUDFLARE PAGES: Keep index.html at the project root. No build command or framework is needed; output directory is / (root). Upload through a connected Git repository. Connect the custom domain only after deployment and use the exact DNS instructions Cloudflare provides. Keep the existing Replit app separate.
-
-
-Latest update: The BasketLogic logo uses the agreed purple empty basket with a green wraparound rising arrow and purple/green wordmark. The business and footer panels use light lavender backgrounds to preserve logo colors and improve text contrast.
+To publish: upload the extracted files so index.html, styles.css, script.js, and the assets folder are at the repository root. Then connect the repository to Cloudflare Pages.
