@@ -7,3 +7,6 @@ EARLY-ACCESS FORM: This starter uses a mailto handoff to hello@mybasketlogic.com
 The app preview is illustrative, not a screenshot of a live feature. No live prices, guaranteed savings, or existing retailer partnerships are claimed.
 
 CLOUDFLARE PAGES: Keep index.html at the project root. No build command or framework is needed; output directory is / (root). Upload through a connected Git repository. Connect the custom domain only after deployment and use the exact DNS instructions Cloudflare provides. Keep the existing Replit app separate.
+
+
+Latest update: The BasketLogic logo uses the agreed purple empty basket with a green wraparound rising arrow and purple/green wordmark. The business and footer panels use light lavender backgrounds to preserve logo colors and improve text contrast.
