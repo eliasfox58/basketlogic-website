@@ -107,3 +107,10 @@
   .value-ribbon>b{font-size:13px;line-height:1.6}
   .value-ribbon i{padding:0 6px}
 }
+
+/* Ensure the Simple Promise background panel covers the full heading and every line of copy on tablet and desktop. */
+@media (min-width:761px){
+  .trust-heading{position:relative;isolation:isolate;padding:36px 34px 36px 24px;}
+  .trust-heading:before{left:0;right:0;top:0;bottom:0;width:auto;border-radius:26px;background:linear-gradient(135deg,rgba(240,234,250,.92),rgba(234,247,240,.72));}
+  .trust-heading>*{position:relative;z-index:1;}
+}
