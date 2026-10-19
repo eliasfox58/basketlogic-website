@@ -24,3 +24,11 @@
 .photo-caption{position:absolute;z-index:2;right:-8px;bottom:0;background:#fff;border:1px solid #eee9f1;border-radius:30px;padding:12px 17px;box-shadow:0 9px 28px #28174716;color:var(--purple);font-size:11px;font-weight:800}.photo-caption span{color:var(--green);margin-right:7px}
 @media(max-width:900px){.shopper-section{gap:4%;padding-left:6%;padding-right:6%}.shopper-photo{height:540px}.shopper-copy h2{font-size:clamp(34px,4.4vw,46px)}}
 @media(max-width:760px){.shopper-section{grid-template-columns:1fr;gap:27px;padding:62px 24px}.shopper-copy{max-width:none}.shopper-copy h2{font-size:clamp(37px,9vw,48px);letter-spacing:-1.4px}.shopper-benefits{gap:15px}.shopper-benefits article{align-items:flex-start}.shopper-icon{flex-basis:50px;width:50px;height:50px;font-size:24px}.shopper-benefits h3{font-size:15px}.shopper-photo-wrap{padding:0 4px 17px}.shopper-photo{height:auto;aspect-ratio:4/5;object-position:48% center;border-radius:19px}.photo-caption{right:0;bottom:0;font-size:10px;padding:10px 13px}.shopper-callout{padding:14px}.shopper-callout b{font-size:14px}.shopper-callout small{font-size:11px}}
+
+
+/* Mobile shopper image sizing fix: keep the photo visually balanced instead of full-screen tall. */
+@media(max-width:760px){
+  .shopper-photo-wrap{width:min(100%,380px);margin:0 auto;padding:0 0 17px;}
+  .shopper-photo{display:block;width:100%;height:auto;max-height:450px;aspect-ratio:4/5;object-fit:cover;object-position:48% center;}
+  .photo-caption{right:0;bottom:0;max-width:calc(100% - 12px);white-space:normal;}
+}
