@@ -114,3 +114,11 @@
   .trust-heading:before{left:0;right:0;top:0;bottom:0;width:auto;border-radius:26px;background:linear-gradient(135deg,rgba(240,234,250,.92),rgba(234,247,240,.72));}
   .trust-heading>*{position:relative;z-index:1;}
 }
+
+
+/* Business email links in the footer */
+.footer-contact{display:flex;flex-direction:column;gap:7px;color:#51465f;font-size:10px;line-height:1.5}
+.footer-contact b{font-size:11px;color:var(--purple);margin-bottom:2px}
+.footer-contact a{color:#51465f;text-decoration:none;overflow-wrap:anywhere}
+.footer-contact a:hover{color:var(--green);text-decoration:underline}
+@media(max-width:760px){.footer-contact{width:100%;gap:8px;font-size:11px}}
